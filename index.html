@@ -1,10 +1,198 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <title>Store Server</title>
-    <script>window.location.href = "about.html";</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calmionix SMP - Minecraft Server</title>
+  <meta name="description" content="Calmionix SMP - Server Minecraft Survival Multiplayer dengan komunitas ramah. Support Java & Bedrock Edition.">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <!-- Loading Screen -->
+  <div class="loading-screen">
+    <img src="assets/images/logo.png" alt="Calmionix SMP" class="loading-logo">
+    <p class="loading-text">Loading...</p>
+  </div>
+
+  <!-- Particles -->
+  <div class="particles"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="navbar-logo">
+        <img src="assets/images/logo.png" alt="Calmionix SMP">
+        <span>CALMIONIX</span>
+      </a>
+      
+      <ul class="navbar-menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="fitur.html">Fitur</a></li>
+        <li><a href="rank.html">Rank Store</a></li>
+        <li><a href="shard.html">Shard Store</a></li>
+        <li><a href="vote.html">Vote</a></li>
+        <li><a href="social.html">Discord</a></li>
+      </ul>
+      
+      <div class="navbar-controls">
+        <div class="theme-toggle" title="Toggle theme"></div>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <img src="assets/images/logo.png" alt="Calmionix SMP" class="hero-logo">
+      <h1 class="hero-title">CALMIONIX SMP</h1>
+      <p class="hero-subtitle">Server Minecraft Survival Multiplayer dengan Komunitas Ramah<br>Support Java & Bedrock Edition</p>
+      <div class="hero-buttons">
+        <a href="#server-status" class="btn btn-primary">Cek Status Server</a>
+        <a href="social.html" class="btn">Join Discord</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Server Status Section -->
+  <section class="section" id="server-status">
+    <div class="container">
+      <div class="section-header scroll-animate">
+        <h2 class="section-title">📡 STATUS SERVER</h2>
+        <p class="section-subtitle">Informasi real-time server Calmionix SMP</p>
+      </div>
+      
+      <div class="server-status scroll-animate">
+        <div class="status-indicator">
+          <span class="status-dot online"></span>
+          <span class="status-text">ONLINE</span>
+        </div>
+        
+        <div class="server-info-grid">
+          <div class="server-info-item">
+            <div class="server-info-label">Players Online</div>
+            <div class="server-info-value player-count">Loading...</div>
+          </div>
+          <div class="server-info-item">
+            <div class="server-info-label">Version</div>
+            <div class="server-info-value server-version">Loading...</div>
+          </div>
+          <div class="server-info-item">
+            <div class="server-info-label">MOTD</div>
+            <div class="server-info-value server-motd">Loading...</div>
+          </div>
+          <div class="server-info-item">
+            <div class="server-info-label">Platform</div>
+            <div class="server-info-value server-platform">Java & Bedrock</div>
+          </div>
+        </div>
+        
+        <div class="ip-display">
+          <span class="ip-text">calmionix.fun:19132</span>
+          <button class="btn btn-primary" onclick="Calmionix.copyToClipboard('calmionix.fun:19132', 'IP Server berhasil disalin!')">
+            📋 COPY IP
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Links Section -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header scroll-animate">
+        <h2 class="section-title">🎮 QUICK LINKS</h2>
+        <p class="section-subtitle">Akses cepat ke fitur utama</p>
+      </div>
+      
+      <div class="grid grid-4">
+        <a href="rank.html" class="card scroll-animate" style="text-align: center;">
+          <img src="assets/images/icon-rank.png" alt="Rank" class="card-icon" style="margin: 0 auto 15px;">
+          <h3 class="card-title">Rank Store</h3>
+          <p>Dapatkan rank eksklusif dengan fitur premium</p>
+        </a>
+        
+        <a href="shard.html" class="card scroll-animate" style="text-align: center;">
+          <img src="assets/images/icon-shard.png" alt="Shard" class="card-icon" style="margin: 0 auto 15px;">
+          <h3 class="card-title">Shard Store</h3>
+          <p>Beli shard untuk gacha item langka</p>
+        </a>
+        
+        <a href="vote.html" class="card scroll-animate" style="text-align: center;">
+          <img src="assets/images/icon-vote.png" alt="Vote" class="card-icon" style="margin: 0 auto 15px;">
+          <h3 class="card-title">Vote Server</h3>
+          <p>Dukung server dengan vote dan dapatkan reward</p>
+        </a>
+        
+        <a href="social.html" class="card scroll-animate" style="text-align: center;">
+          <img src="assets/images/icon-discord.png" alt="Discord" class="card-icon" style="margin: 0 auto 15px;">
+          <h3 class="card-title">Join Discord</h3>
+          <p>Bergabung dengan komunitas kami</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Preview -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header scroll-animate">
+        <h2 class="section-title">✨ FITUR UNGGULAN</h2>
+        <p class="section-subtitle">Berbagai fitur menarik yang tersedia di server</p>
+      </div>
+      
+      <div class="grid grid-3">
+        <div class="card scroll-animate">
+          <div class="card-header">
+            <img src="assets/images/icon-sword.png" alt="Anarchy" class="card-icon">
+            <h3 class="card-title">Anarchy Mode</h3>
+          </div>
+          <div class="card-content">
+            <p>Bermain dengan bebas! Bebas grief dan PvP di area tertentu. Rasakan sensasi survival yang sebenarnya.</p>
+          </div>
+        </div>
+        
+        <div class="card scroll-animate">
+          <div class="card-header">
+            <img src="assets/images/icon-dungeon.png" alt="Dungeon" class="card-icon">
+            <h3 class="card-title">Custom Dungeon</h3>
+          </div>
+          <div class="card-content">
+            <p>Jelajahi dungeon kustom dengan tantangan unik dan hadiah melimpah. Setiap dungeon berbeda!</p>
+          </div>
+        </div>
+        
+        <div class="card scroll-animate">
+          <div class="card-header">
+            <img src="assets/images/icon-enchant.png" alt="Enchant" class="card-icon">
+            <h3 class="card-title">Custom Enchant</h3>
+          </div>
+          <div class="card-content">
+            <p>Enchantmen kustom yang unik dan powerful. Tingkatkan perlengkapanmu dengan enchantmen spesial!</p>
+          </div>
+        </div>
+      </div>
+      
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="fitur.html" class="btn btn-primary">Lihat Semua Fitur</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">© 2026 Calmionix SMP. All rights reserved.</p>
+      <p class="footer-text" style="margin-top: 10px;">Made with ❤️ for Minecraft Community</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
