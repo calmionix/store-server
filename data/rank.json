@@ -3,17 +3,16 @@
     {
       "id": 1,
       "name": "VIP",
-      "price": 25000,
+      "price": 30000,
       "currency": "IDR",
       "badge": null,
       "color": "#55FF55",
       "features": [
         "Prefix [VIP] di chat",
+        "Akses ke /enderchest",
         "Akses ke /hat",
-        "Akses ke /nick",
         "5 slot home tambahan",
-        "Kit VIP harian",
-        "Akses ke warp VIP"
+        "Kit VIP",
       ],
       "description": "Paket dasar untuk pemain yang ingin mendukung server dan mendapatkan fitur tambahan."
     },
@@ -27,10 +26,11 @@
       "features": [
         "Semua fitur VIP",
         "Prefix [MVP] di chat",
+        "Akses /nick"
+        "Akses ke /enderchest",
         "Akses ke /fly di spawn",
         "10 slot home tambahan",
-        "Kit MVP harian",
-        "Akses ke /enderchest",
+        "Kit MVP",
         "Prioritas saat server penuh"
       ],
       "description": "Paket populer dengan fitur yang lebih lengkap untuk pengalaman bermain yang lebih baik."
@@ -53,45 +53,5 @@
         "Pet eksklusif Legend"
       ],
       "description": "Paket terbaik untuk pemain yang ingin pengalaman premium dengan fitur lengkap."
-    },
-    {
-      "id": 4,
-      "name": "SUPREME",
-      "price": 200000,
-      "currency": "IDR",
-      "badge": "Premium",
-      "color": "#FF55FF",
-      "features": [
-        "Semua fitur LEGEND",
-        "Prefix [SUPREME] di chat",
-        "Akses ke /god mode",
-        "Unlimited home",
-        "Kit SUPREME harian",
-        "Akses ke /repair",
-        "Akses ke /top",
-        "Pet eksklusif Supreme",
-        "Title custom"
-      ],
-      "description": "Paket premium tertinggi dengan semua fitur eksklusif dan akses tak terbatas."
-    },
-    {
-      "id": 5,
-      "name": "SPONSOR",
-      "price": 500000,
-      "currency": "IDR",
-      "badge": "Elite",
-      "color": "#AA00AA",
-      "features": [
-        "Semua fitur SUPREME",
-        "Prefix [SPONSOR] di chat",
-        "Akses ke command admin tertentu",
-        "Custom pet dengan ability unik",
-        "Kit SPONSOR harian",
-        "Discord role khusus",
-        "Nama di hall of fame",
-        "Early access fitur baru"
-      ],
-      "description": "Paket eksklusif untuk sponsor server dengan benefit terbaik dan pengakuan khusus."
-    }
   ]
 }
