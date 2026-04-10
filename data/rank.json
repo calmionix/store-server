@@ -26,8 +26,10 @@
       "features": [
         "Semua fitur VIP",
         "Prefix [MVP] di chat",
+        "Akses ke /pweather",
         "Akses /nick"
-        "Akses ke /enderchest",
+        "Akses ke /recipe",
+        "Akses ke /feed",
         "Akses ke /fly di spawn",
         "10 slot home tambahan",
         "Kit MVP",
@@ -38,19 +40,19 @@
     {
       "id": 3,
       "name": "LEGEND",
-      "price": 100000,
+      "price": 150000,
       "currency": "IDR",
       "badge": "Best Value",
       "color": "#FFAA00",
       "features": [
         "Semua fitur MVP",
         "Prefix [LEGEND] di chat",
-        "Akses ke /fly di semua area",
-        "15 slot home tambahan",
+        "Akses ke /repair",
+        "unlimited home",
         "Kit LEGEND harian",
-        "Akses ke /craft",
+        "Akses ke /ptime",
         "Akses ke /anvil",
-        "Pet eksklusif Legend"
+        "Role Discord"
       ],
       "description": "Paket terbaik untuk pemain yang ingin pengalaman premium dengan fitur lengkap."
   ]
