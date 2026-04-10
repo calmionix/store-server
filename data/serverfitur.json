@@ -1,0 +1,74 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "name": "Anarchy Mode",
+      "icon": "icon-sword.png",
+      "description": "Bermain dengan bebas! Tidak ada aturan ketat, bebas grief, dan bebas PvP di area tertentu. Rasakan sensasi survival yang sebenarnya.",
+      "category": "Gameplay"
+    },
+    {
+      "id": 2,
+      "name": "Bebas Grief",
+      "icon": "icon-shield.png",
+      "description": "Sistem proteksi yang memungkinkan pemain untuk melindungi bangunan mereka dari griefing. Tetap aman sambil menikmati gameplay anarchy.",
+      "category": "Protection"
+    },
+    {
+      "id": 3,
+      "name": "Custom Dungeon",
+      "icon": "icon-dungeon.png",
+      "description": "Jelajahi dungeon kustom dengan tantangan unik dan hadiah melimpah. Setiap dungeon memiliki mekanisme dan musuh yang berbeda.",
+      "category": "Adventure"
+    },
+    {
+      "id": 4,
+      "name": "Custom Enchant",
+      "icon": "icon-enchant.png",
+      "description": "Enchantmen kustom yang unik dan powerful. Tingkatkan perlengkapanmu dengan enchantmen spesial yang tidak ada di vanilla Minecraft.",
+      "category": "Enhancement"
+    },
+    {
+      "id": 5,
+      "name": "Bedrock & Java Support",
+      "icon": "icon-chest.png",
+      "description": "Mainkan server dari platform apapun! Baik itu Java Edition di PC atau Bedrock Edition di HP/Console, semua bisa bermain bersama.",
+      "category": "Compatibility"
+    },
+    {
+      "id": 6,
+      "name": "Komunitas Aktif",
+      "icon": "icon-discord.png",
+      "description": "Bergabung dengan komunitas yang ramah dan aktif. Dapatkan bantuan, bertrading, dan ikuti event komunitas yang seru.",
+      "category": "Community"
+    },
+    {
+      "id": 7,
+      "name": "Pets System",
+      "icon": "icon-pet.png",
+      "description": "Dapatkan pet companion yang akan menemanimu dalam petualangan. Setiap pet memiliki kemampuan unik yang dapat membantu gameplaymu.",
+      "category": "Collection"
+    },
+    {
+      "id": 8,
+      "name": "Shard Gacha",
+      "icon": "icon-shard.png",
+      "description": "Kumpulkan shard dan gunakan untuk gacha berbagai item langka, pet eksklusif, dan hadiah menarik lainnya.",
+      "category": "Economy"
+    },
+    {
+      "id": 9,
+      "name": "MCMMO Skills",
+      "icon": "icon-rank.png",
+      "description": "Sistem skill RPG yang memungkinkan pemain untuk meningkatkan kemampuan mereka dalam berbagai aktivitas seperti mining, combat, dan farming.",
+      "category": "RPG"
+    },
+    {
+      "id": 10,
+      "name": "Economy System",
+      "icon": "icon-shard.png",
+      "description": "Sistem ekonomi yang seimbang dengan shop, auction house, dan trading. Jual item hasil farmingmu dan jadilah pemain terkaya!",
+      "category": "Economy"
+    }
+  ]
+}

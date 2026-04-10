@@ -1,0 +1,87 @@
+{
+  "shard_packages": [
+    {
+      "id": 1,
+      "name": "Starter Pack",
+      "amount": 100,
+      "price": 10000,
+      "currency": "IDR",
+      "bonus": 0,
+      "badge": null,
+      "color": "#55FF55",
+      "description": "Paket dasar untuk pemula yang ingin mencoba sistem gacha."
+    },
+    {
+      "id": 2,
+      "name": "Basic Pack",
+      "amount": 250,
+      "price": 20000,
+      "currency": "IDR",
+      "bonus": 25,
+      "badge": null,
+      "color": "#55FFFF",
+      "description": "Paket standar dengan bonus shard tambahan."
+    },
+    {
+      "id": 3,
+      "name": "Advanced Pack",
+      "amount": 500,
+      "price": 35000,
+      "currency": "IDR",
+      "bonus": 75,
+      "badge": "Popular",
+      "color": "#FFAA00",
+      "description": "Paket populer dengan bonus yang menguntungkan."
+    },
+    {
+      "id": 4,
+      "name": "Pro Pack",
+      "amount": 1000,
+      "price": 60000,
+      "currency": "IDR",
+      "bonus": 200,
+      "badge": "Best Value",
+      "color": "#FF55FF",
+      "description": "Paket terbaik untuk pemain serius dengan bonus melimpah."
+    },
+    {
+      "id": 5,
+      "name": "Legend Pack",
+      "amount": 2500,
+      "price": 125000,
+      "currency": "IDR",
+      "bonus": 750,
+      "badge": "Premium",
+      "color": "#AA00AA",
+      "description": "Paket legendaris dengan bonus terbesar untuk kolektor sejati."
+    },
+    {
+      "id": 6,
+      "name": "Ultimate Pack",
+      "amount": 5000,
+      "price": 225000,
+      "currency": "IDR",
+      "bonus": 2000,
+      "badge": "Elite",
+      "color": "#FF0000",
+      "description": "Paket ultimate dengan bonus terbesar untuk pengalaman gacha maksimal."
+    }
+  ],
+  "gacha_info": {
+    "description": "Gunakan shard untuk gacha berbagai hadiah menarik!",
+    "rewards": [
+      "Item langka dan eksklusif",
+      "Pet companion unik",
+      "Cosmetic dan title",
+      "Key untuk dungeon khusus",
+      "Booster dan buff"
+    ],
+    "rates": {
+      "common": "60%",
+      "uncommon": "25%",
+      "rare": "10%",
+      "epic": "4%",
+      "legendary": "1%"
+    }
+  }
+}

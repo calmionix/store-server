@@ -1,0 +1,39 @@
+{
+  "server_name": "Calmionix SMP",
+  "description": "Calmionix SMP adalah server Minecraft Survival Multiplayer yang menghadirkan pengalaman bermain yang seru dan komunitas yang ramah. Server ini mendukung kedua platform Java dan Bedrock Edition, memungkinkan pemain dari berbagai perangkat untuk bermain bersama.",
+  "history": [
+    {
+      "year": "2023",
+      "title": "Awal Mula",
+      "description": "Server dimulai sebagai server Bedrock kecil yang masih dalam tahap pengembangan. Banyak fitur yang belum sempurna dan masih dalam uji coba."
+    },
+    {
+      "year": "2024",
+      "title": "Perkembangan",
+      "description": "Server mulai berkembang dengan penambahan berbagai fitur baru dan perbaikan sistem. Komunitas mulai bertumbuh secara organik."
+    },
+    {
+      "year": "2025",
+      "title": "Grand Reopening",
+      "description": "Setelah sempat berhenti karena bug dan masalah teknis, server Calmionix SMP resmi dibuka kembali dengan sistem yang lebih stabil dan fitur yang lebih lengkap."
+    },
+    {
+      "year": "2026",
+      "title": "Era Baru",
+      "description": "Server terus berkembang dengan komunitas yang semakin aktif dan berbagai event menarik yang diadakan secara rutin."
+    }
+  ],
+  "goals": [
+    "Menyediakan server survival yang adil dan menyenangkan untuk semua pemain",
+    "Membangun komunitas yang ramah dan saling membantu",
+    "Mengadakan event dan kompetisi secara rutin",
+    "Menjaga stabilitas server dan pengalaman bermain yang lancar",
+    "Mendukung cross-play antara Java dan Bedrock Edition"
+  ],
+  "stats": {
+    "players": "1000+",
+    "uptime": "99.9%",
+    "discord_members": "500+",
+    "plugins": "50+"
+  }
+}
