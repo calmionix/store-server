@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rank Store - Calmionix SMP</title>
+  <meta name="description" content="Beli rank eksklusif di Calmionix SMP. VIP, MVP, LEGEND, SUPREME, dan SPONSOR dengan fitur premium.">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div class="loading-screen">
+    <img src="assets/images/logo.png" alt="Calmionix SMP" class="loading-logo">
+    <p class="loading-text">Loading...</p>
+  </div>
+
+  <!-- Particles -->
+  <div class="particles"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="navbar-logo">
+        <img src="assets/images/logo.png" alt="Calmionix SMP">
+        <span>CALMIONIX</span>
+      </a>
+      
+      <ul class="navbar-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="fitur.html">Fitur</a></li>
+        <li><a href="rank.html" class="active">Rank Store</a></li>
+        <li><a href="shard.html">Shard Store</a></li>
+        <li><a href="vote.html">Vote</a></li>
+        <li><a href="social.html">Discord</a></li>
+      </ul>
+      
+      <div class="navbar-controls">
+        <div class="theme-toggle" title="Toggle theme"></div>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" style="min-height: 50vh; padding-top: 120px;">
+    <div class="hero-content">
+      <h1 class="hero-title">RANK STORE</h1>
+      <p class="hero-subtitle">Dapatkan rank eksklusif dengan fitur premium</p>
+    </div>
+  </section>
+
+  <!-- Rank Store -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header scroll-animate">
+        <h2 class="section-title">👑 PILIH RANK ANDA</h2>
+        <p class="section-subtitle">Tingkatkan pengalaman bermain dengan rank premium</p>
+      </div>
+
+      <!-- Filter & Sort -->
+      <div class="filter-bar scroll-animate">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-sort="asc" data-filter="all">Harga: Rendah - Tinggi</button>
+        <button class="filter-btn" data-sort="desc" data-filter="all">Harga: Tinggi - Rendah</button>
+      </div>
+      
+      <div class="grid grid-3" id="rank-container">
+        <!-- VIP Rank -->
+        <div class="price-card filterable-card scroll-animate" data-price="25000" data-category="rank">
+          <div class="price-card-header">
+            <h3 class="price-card-name" style="color: #55FF55;">VIP</h3>
+            <div class="price-card-amount">
+              Rp 25.000
+            </div>
+          </div>
+          <ul class="price-card-features">
+            <li>Prefix [VIP] di chat</li>
+            <li>Akses ke /hat</li>
+            <li>Akses ke /nick</li>
+            <li>5 slot home tambahan</li>
+            <li>Kit VIP harian</li>
+            <li>Akses ke warp VIP</li>
+          </ul>
+          <div class="price-card-footer">
+            <a href="https://wa.me/6282130570915?text=Halo%20saya%20mau%20beli%20rank%20VIP" class="btn btn-primary btn-block" target="_blank">BELI</a>
+          </div>
+        </div>
+
+        <!-- MVP Rank -->
+        <div class="price-card filterable-card scroll-animate" data-price="50000" data-category="rank">
+          <div class="price-card-header">
+            <span class="badge badge-popular" style="margin-bottom: 10px; display: inline-block;">POPULAR</span>
+            <h3 class="price-card-name" style="color: #55FFFF;">MVP</h3>
+            <div class="price-card-amount">
+              Rp 50.000
+            </div>
+          </div>
+          <ul class="price-card-features">
+            <li>Semua fitur VIP</li>
+            <li>Prefix [MVP] di chat</li>
+            <li>Akses ke /fly di spawn</li>
+            <li>10 slot home tambahan</li>
+            <li>Kit MVP harian</li>
+            <li>Akses ke /enderchest</li>
+            <li>Prioritas saat server penuh</li>
+          </ul>
+          <div class="price-card-footer">
+            <a href="https://wa.me/6282130570915?text=Halo%20saya%20mau%20beli%20rank%20MVP" class="btn btn-primary btn-block" target="_blank">BELI</a>
+          </div>
+        </div>
+
+        <!-- LEGEND Rank -->
+        <div class="price-card filterable-card featured scroll-animate" data-price="100000" data-category="rank">
+          <div class="price-card-header">
+            <span class="badge badge-best" style="margin-bottom: 10px; display: inline-block;">BEST VALUE</span>
+            <h3 class="price-card-name" style="color: #FFAA00;">LEGEND</h3>
+            <div class="price-card-amount">
+              Rp 100.000
+            </div>
+          </div>
+          <ul class="price-card-features">
+            <li>Semua fitur MVP</li>
+            <li>Prefix [LEGEND] di chat</li>
+            <li>Akses ke /fly di semua area</li>
+            <li>15 slot home tambahan</li>
+            <li>Kit LEGEND harian</li>
+            <li>Akses ke /craft</li>
+            <li>Akses ke /anvil</li>
+            <li>Pet eksklusif Legend</li>
+          </ul>
+          <div class="price-card-footer">
+            <a href="https://wa.me/6282130570915?text=Halo%20saya%20mau%20beli%20rank%20LEGEND" class="btn btn-primary btn-block" target="_blank">BELI</a>
+          </div>
+        </div>
+
+        <!-- SUPREME Rank -->
+        <div class="price-card filterable-card scroll-animate" data-price="200000" data-category="rank">
+          <div class="price-card-header">
+            <span class="badge badge-premium" style="margin-bottom: 10px; display: inline-block;">PREMIUM</span>
+            <h3 class="price-card-name" style="color: #FF55FF;">SUPREME</h3>
+            <div class="price-card-amount">
+              Rp 200.000
+            </div>
+          </div>
+          <ul class="price-card-features">
+            <li>Semua fitur LEGEND</li>
+            <li>Prefix [SUPREME] di chat</li>
+            <li>Akses ke /god mode</li>
+            <li>Unlimited home</li>
+            <li>Kit SUPREME harian</li>
+            <li>Akses ke /repair</li>
+            <li>Akses ke /top</li>
+            <li>Pet eksklusif Supreme</li>
+            <li>Title custom</li>
+          </ul>
+          <div class="price-card-footer">
+            <a href="https://wa.me/6282130570915?text=Halo%20saya%20mau%20beli%20rank%20SUPREME" class="btn btn-primary btn-block" target="_blank">BELI</a>
+          </div>
+        </div>
+
+        <!-- SPONSOR Rank -->
+        <div class="price-card filterable-card scroll-animate" data-price="500000" data-category="rank">
+          <div class="price-card-header">
+            <span class="badge badge-elite" style="margin-bottom: 10px; display: inline-block;">ELITE</span>
+            <h3 class="price-card-name" style="color: #AA00AA;">SPONSOR</h3>
+            <div class="price-card-amount">
+              Rp 500.000
+            </div>
+          </div>
+          <ul class="price-card-features">
+            <li>Semua fitur SUPREME</li>
+            <li>Prefix [SPONSOR] di chat</li>
+            <li>Akses ke command admin tertentu</li>
+            <li>Custom pet dengan ability unik</li>
+            <li>Kit SPONSOR harian</li>
+            <li>Discord role khusus</li>
+            <li>Nama di hall of fame</li>
+            <li>Early access fitur baru</li>
+          </ul>
+          <div class="price-card-footer">
+            <a href="https://wa.me/6282130570915?text=Halo%20saya%20mau%20beli%20rank%20SPONSOR" class="btn btn-primary btn-block" target="_blank">BELI</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Info Card -->
+      <div class="card scroll-animate" style="margin-top: 50px;">
+        <h3 class="card-title">📋 Informasi Pembelian</h3>
+        <div class="card-content">
+          <p><strong>Cara Pembelian:</strong></p>
+          <ol style="margin-left: 20px; color: var(--text-secondary);">
+            <li>Klik tombol "BELI" pada rank yang diinginkan</li>
+            <li>Anda akan diarahkan ke WhatsApp admin</li>
+            <li>Kirim pesan dengan format yang sudah tersedia</li>
+            <li>Lakukan pembayaran sesuai instruksi admin</li>
+            <li>Rank akan aktif dalam 1x24 jam setelah pembayaran dikonfirmasi</li>
+          </ol>
+          <p style="margin-top: 15px;"><strong>Catatan:</strong> Rank bersifat permanen dan tidak akan hilang kecuali melanggar aturan server yang berat.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">© 2026 Calmionix SMP. All rights reserved.</p>
+      <p class="footer-text" style="margin-top: 10px;">Made with ❤️ for Minecraft Community</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shard Store - Calmionix SMP</title>
+  <meta name="description" content="Beli shard untuk gacha item langka di Calmionix SMP. Berbagai paket shard dengan bonus melimpah.">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div class="loading-screen">
+    <img src="assets/images/logo.png" alt="Calmionix SMP" class="loading-logo">
+    <p class="loading-text">Loading...</p>
+  </div>
+
+  <!-- Particles -->
+  <div class="particles"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="navbar-logo">
+        <img src="assets/images/logo.png" alt="Calmionix SMP">
+        <span>CALMIONIX</span>
+      </a>
+      
+      <ul class="navbar-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="fitur.html">Fitur</a></li>
+        <li><a href="rank.html">Rank Store</a></li>
+        <li><a href="shard.html" class="active">Shard Store</a></li>
+        <li><a href="vote.html">Vote</a></li>
+        <li><a href="social.html">Discord</a></li>
+      </ul>
+      
+      <div class="navbar-controls">
+        <div class="theme-toggle" title="Toggle theme"></div>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" style="min-height: 50vh; padding-top: 120px;">
+    <div class="hero-content">
+      <h1 class="hero-title">SHARD STORE</h1>
+      <p class="hero-subtitle">Beli shard untuk gacha item langka dan eksklusif</p>
+    </div>
+  </section>
+
+  <!-- Shard Store -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header scroll-animate">
+        <h2 class="section-title">💎 PILIH PAKET SHARD</h2>
+        <p class="section-subtitle">Semakin banyak shard, semakin besar bonusnya!</p>
+      </div>
+
+      <!-- Filter & Sort -->
+      <div class="filter-bar scroll-animate">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-sort="asc" data-filter="all">Harga: Rendah - Tinggi</button>
+        <button class="filter-btn" data-sort="desc" data-filter="all">Harga: Tinggi - Rendah</button>
+      </div>
+      
+      <div class="grid grid-3" id="shard-container">
+        <!-- Starter Pack -->
+        <div class="price-card filterable-card scroll-animate" data-price="10000" data-category="shard">
+          <div class="price-card-header">
+            <h3 class="price-card-name" style="color: #55FF55;">Starter Pack</h3>
+            <div style="font-size: 3rem; margin: 15px 0;">💎</div>
+            <div class="price-card-amount">
+              100 Shard
+            </div>
+          </div>
+          <div style="text-align: center; padding: 15px; background: var(--bg-secondary); margin: 15px 0;">
+            <div style="font-family: 'Press Start 2P', cursive; font-size: 1.2rem;">Rp 10.000</div>
+            <div style="color: var(--text-muted); font-size: 0.9rem;">Bonus: 0 Shard</div>
+          </div>
+          <p style="text-align: center; color: var(--text-secondary);">Paket dasar untuk pemula yang ingin mencoba sistem gacha.</p>
+          <div class="price-card-footer">
+            <a href="https://wa.me/6282130570915?text=Halo%20saya%20mau%20beli%20Starter%20Pack%20(100%20Shard)" class="btn btn-primary btn-block" target="_blank">BELI</a>
+          </div>
+        </div>
+
+        <!-- Basic Pack -->
+        <div class="price-card filterable-card scroll-animate" data-price="20000" data-category="shard">
+          <div class="price-card-header">
+            <h3 class="price-card-name" style="color: #55FFFF;">Basic Pack</h3>
+            <div style="font-size: 3rem; margin: 15px 0;">💎💎</div>
+            <div class="price-card-amount">
+              250 Shard
+            </div>
+          </div>
+          <div style="text-align: center; padding: 15px; background: var(--bg-secondary); margin: 15px 0;">
+            <div style="font-family: 'Press Start 2P', cursive; font-size: 1.2rem;">Rp 20.000</div>
+            <div style="color: var(--accent-primary); font-size: 0.9rem;">Bonus: +25 Shard</div>
+          </div>
+          <p style="text-align: center; color: var(--text-secondary);">Paket standar dengan bonus shard tambahan.</p>
+          <div class="price-card-footer">
+            <a href="https://wa.me/6282130570915?text=Halo%20saya%20mau%20beli%20Basic%20Pack%20(250%20Shard)" class="btn btn-primary btn-block" target="_blank">BELI</a>
+          </div>
+        </div>
+
+        <!-- Advanced Pack -->
+        <div class="price-card filterable-card scroll-animate" data-price="35000" data-category="shard">
+          <div class="price-card-header">
+            <span class="badge badge-popular" style="margin-bottom: 10px; display: inline-block;">POPULAR</span>
+            <h3 class="price-card-name" style="color: #FFAA00;">Advanced Pack</h3>
+            <div style="font-size: 3rem; margin: 15px 0;">💎💎💎</div>
+            <div class="price-card-amount">
+              500 Shard
+            </div>
+          </div>
+          <div style="text-align: center; padding: 15px; background: var(--bg-secondary); margin: 15px 0;">
+            <div style="font-family: 'Press Start 2P', cursive; font-size: 1.2rem;">Rp 35.000</div>
+            <div style="color: var(--accent-primary); font-size: 0.9rem;">Bonus: +75 Shard</div>
+          </div>
+          <p style="text-align: center; color: var(--text-secondary);">Paket populer dengan bonus yang menguntungkan.</p>
+          <div class="price-card-footer">
+            <a href="https://wa.me/6282130570915?text=Halo%20saya%20mau%20beli%20Advanced%20Pack%20(500%20Shard)" class="btn btn-primary btn-block" target="_blank">BELI</a>
+          </div>
+        </div>
+
+        <!-- Pro Pack -->
+        <div class="price-card filterable-card featured scroll-animate" data-price="60000" data-category="shard">
+          <div class="price-card-header">
+            <span class="badge badge-best" style="margin-bottom: 10px; display: inline-block;">BEST VALUE</span>
+            <h3 class="price-card-name" style="color: #FF55FF;">Pro Pack</h3>
+            <div style="font-size: 3rem; margin: 15px 0;">💎💎💎💎</div>
+            <div class="price-card-amount">
+              1.000 Shard
+            </div>
+          </div>
+          <div style="text-align: center; padding: 15px; background: var(--bg-secondary); margin: 15px 0;">
+            <div style="font-family: 'Press Start 2P', cursive; font-size: 1.2rem;">Rp 60.000</div>
+            <div style="color: var(--accent-primary); font-size: 0.9rem;">Bonus: +200 Shard</div>
+          </div>
+          <p style="text-align: center; color: var(--text-secondary);">Paket terbaik untuk pemain serius dengan bonus melimpah.</p>
+          <div class="price-card-footer">
+            <a href="https://wa.me/6282130570915?text=Halo%20saya%20mau%20beli%20Pro%20Pack%20(1000%20Shard)" class="btn btn-primary btn-block" target="_blank">BELI</a>
+          </div>
+        </div>
+
+        <!-- Legend Pack -->
+        <div class="price-card filterable-card scroll-animate" data-price="125000" data-category="shard">
+          <div class="price-card-header">
+            <span class="badge badge-premium" style="margin-bottom: 10px; display: inline-block;">PREMIUM</span>
+            <h3 class="price-card-name" style="color: #AA00AA;">Legend Pack</h3>
+            <div style="font-size: 3rem; margin: 15px 0;">💎💎💎💎💎</div>
+            <div class="price-card-amount">
+              2.500 Shard
+            </div>
+          </div>
+          <div style="text-align: center; padding: 15px; background: var(--bg-secondary); margin: 15px 0;">
+            <div style="font-family: 'Press Start 2P', cursive; font-size: 1.2rem;">Rp 125.000</div>
+            <div style="color: var(--accent-primary); font-size: 0.9rem;">Bonus: +750 Shard</div>
+          </div>
+          <p style="text-align: center; color: var(--text-secondary);">Paket legendaris dengan bonus terbesar untuk kolektor sejati.</p>
+          <div class="price-card-footer">
+            <a href="https://wa.me/6282130570915?text=Halo%20saya%20mau%20beli%20Legend%20Pack%20(2500%20Shard)" class="btn btn-primary btn-block" target="_blank">BELI</a>
+          </div>
+        </div>
+
+        <!-- Ultimate Pack -->
+        <div class="price-card filterable-card scroll-animate" data-price="225000" data-category="shard">
+          <div class="price-card-header">
+            <span class="badge badge-elite" style="margin-bottom: 10px; display: inline-block;">ELITE</span>
+            <h3 class="price-card-name" style="color: #FF0000;">Ultimate Pack</h3>
+            <div style="font-size: 3rem; margin: 15px 0;">👑</div>
+            <div class="price-card-amount">
+              5.000 Shard
+            </div>
+          </div>
+          <div style="text-align: center; padding: 15px; background: var(--bg-secondary); margin: 15px 0;">
+            <div style="font-family: 'Press Start 2P', cursive; font-size: 1.2rem;">Rp 225.000</div>
+            <div style="color: var(--accent-primary); font-size: 0.9rem;">Bonus: +2.000 Shard</div>
+          </div>
+          <p style="text-align: center; color: var(--text-secondary);">Paket ultimate dengan bonus terbesar untuk pengalaman gacha maksimal.</p>
+          <div class="price-card-footer">
+            <a href="https://wa.me/6282130570915?text=Halo%20saya%20mau%20beli%20Ultimate%20Pack%20(5000%20Shard)" class="btn btn-primary btn-block" target="_blank">BELI</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gacha Info -->
+      <div class="grid grid-2" style="margin-top: 50px;">
+        <div class="card scroll-animate">
+          <h3 class="card-title">🎁 Hadiah Gacha</h3>
+          <div class="card-content">
+            <p>Gunakan shard untuk gacha berbagai hadiah menarik:</p>
+            <ul style="margin-left: 20px; color: var(--text-secondary); margin-top: 10px;">
+              <li>Item langka dan eksklusif</li>
+              <li>Pet companion unik</li>
+              <li>Cosmetic dan title</li>
+              <li>Key untuk dungeon khusus</li>
+              <li>Booster dan buff</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card scroll-animate">
+          <h3 class="card-title">📊 Rate Gacha</h3>
+          <div class="card-content">
+            <div style="display: grid; gap: 10px;">
+              <div style="display: flex; justify-content: space-between; padding: 8px; background: var(--bg-secondary);">
+                <span>Common</span>
+                <span style="color: var(--text-muted);">60%</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; padding: 8px; background: var(--bg-secondary);">
+                <span>Uncommon</span>
+                <span style="color: #55FF55;">25%</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; padding: 8px; background: var(--bg-secondary);">
+                <span>Rare</span>
+                <span style="color: #55FFFF;">10%</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; padding: 8px; background: var(--bg-secondary);">
+                <span>Epic</span>
+                <span style="color: #FF55FF;">4%</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; padding: 8px; background: var(--bg-secondary);">
+                <span>Legendary</span>
+                <span style="color: #FFAA00;">1%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Info Card -->
+      <div class="card scroll-animate" style="margin-top: 30px;">
+        <h3 class="card-title">📋 Informasi Pembelian</h3>
+        <div class="card-content">
+          <p><strong>Cara Pembelian:</strong></p>
+          <ol style="margin-left: 20px; color: var(--text-secondary);">
+            <li>Klik tombol "BELI" pada paket shard yang diinginkan</li>
+            <li>Anda akan diarahkan ke WhatsApp admin</li>
+            <li>Kirim pesan dengan format yang sudah tersedia</li>
+            <li>Lakukan pembayaran sesuai instruksi admin</li>
+            <li>Shard akan ditambahkan dalam 1x24 jam setelah pembayaran dikonfirmasi</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">© 2026 Calmionix SMP. All rights reserved.</p>
+      <p class="footer-text" style="margin-top: 10px;">Made with ❤️ for Minecraft Community</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
